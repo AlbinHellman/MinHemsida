@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#"><p>Home</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#"><p>Features</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#"><p>Pricing</p></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,3 +37,23 @@ export default {
   name: 'MyNavbar'
 }
 </script>
+
+<style scoped>
+
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+navbar-nav {
+  display: flex;
+}
+
+container-fluid {
+
+  display: flex;
+
+}
+
+
+
+</style>

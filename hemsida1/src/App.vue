@@ -1,7 +1,7 @@
 <template>
   <MyNavbar />
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Personal Training Site" style="font-size: 1.8rem"/>
 </template>
 
 <script>

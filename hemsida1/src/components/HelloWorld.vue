@@ -1,12 +1,11 @@
 <template>
   <div class="hello">
-   
+   <div class="background1">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      To Keep your future goals come closer are <span style="color:black">OUR</span> goal
     </p>
+   </div>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -45,6 +44,16 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
+p {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(138, 127, 235);
+  margin-left: -40rem;
+  margin-top: 5rem;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -55,5 +64,11 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.background1 {
+
+  background-color: red;
+
 }
 </style>
