@@ -1,33 +1,18 @@
 <template>
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p>Home</p></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><p>Features</p></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><p>Pricing</p></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+    <div class="space">
+    <a class="navbar-brand" href="#">Alin Hellman</a>
     </div>
+    <div class="space-between">
+    <a class="navbar-brand" href="#">Homepage</a>
+    </div>
+    <div class="space-between">
+    <a class="navbar-brand" href="#">About</a>
+    </div>
+    <div class="space-between">
+    <a class="navbar-brand" href="#">Contact</a>
+  </div>
   </div>
 </nav>
 
@@ -40,15 +25,38 @@ export default {
 
 <style scoped>
 
-.p {
-  font-family: Arial, Helvetica, sans-serif;
+
+.navbar {
+  background-color: black;
+  height: 10rem;
 }
+
+.navbar-brand {
+  color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.space {
+
+ margin-left: 5rem;
+ margin-top: 4rem;
+ margin-right: 28rem;
+}
+
+.space-between {
+  margin: 3rem;
+  padding-top: 1rem;
+}
+
+
 
 navbar-nav {
   display: flex;
 }
 
-container-fluid {
+.container-fluid {
 
   display: flex;
 
